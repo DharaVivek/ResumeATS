@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-genai.configure(api_key="AIzaSyBDR6dWNJPYDwHLKcJEoFrr4VktiyrNBqE")
+genai.configure(api_key="")
 
 
 def get_gemini_response(input, pdf_cotent, prompt):
